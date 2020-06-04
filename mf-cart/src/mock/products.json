@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "First",
+      "price": "$21.99",
+      "imageSrc": "https://loremflickr.com/320/240/frenchie?random=1",
+      "quantity": 2
+    },
+    {
+      "id": "2",
+      "title": "Second",
+      "price": "$21.99",
+      "imageSrc": "https://loremflickr.com/320/240/frenchie?random=2",
+      "quantity": 3
+    },
+    {
+      "id": "3",
+      "title": "Third",
+      "price": "$21.99",
+      "imageSrc": "https://loremflickr.com/320/240/frenchie?random=3",
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "title": "Fourth",
+      "price": "$21.99",
+      "imageSrc": "https://loremflickr.com/320/240/frenchie?random=4",
+      "quantity": 4
+    },
+    {
+      "id": "5",
+      "title": "Fifth",
+      "price": "$21.99",
+      "imageSrc": "https://loremflickr.com/320/240/frenchie?random=5",
+      "quantity": 1
+    }
+  ]
+}

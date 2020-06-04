@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Blue Shirt",
+      "price": "$25.99",
+      "imageSrc": "/images/first.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Rainbow Harness",
+      "price": "$21.99",
+      "imageSrc": "/images/second.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Orange Harness",
+      "price": "$20.99",
+      "imageSrc": "/images/third.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Yellow Shirt",
+      "price": "$12.99",
+      "imageSrc": "/images/fourth.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Banana Shirt",
+      "price": "$10.99",
+      "imageSrc": "/images/fifth.jpg"
+    },
+    {
+      "id": "6",
+      "title": "T-shirt",
+      "price": "$17.99",
+      "imageSrc": "/images/sixth.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": "4",
+      "quantity": 5
+    },
+    {
+      "id": "3",
+      "quantity": 1
+    },
+    {
+      "id": "6",
+      "quantity": 2
+    }
+  ]
+}

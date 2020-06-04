@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# local build
+dist
+microfrontends
+
+# host build
+host-app/build
