@@ -24,13 +24,6 @@ Since you have already setup the services all you need to do is visiting [http:/
 
 ## Without docker
 
-If you ran the `setup` script successfully you only have a few more steps to do:
-
-1. Start the `json-server` with running the following command in the `backend` folder
-
-   `json-server --watch db.json --port 3003 --delay 500`
-
-2. Start the app by running `npm start` in the `host-app` directory
+If you ran the `setup` script successfully you are one step away from running the app. In the root folder there is another script called `run.js`. It will start the `json-server` and the `host-app` if you execute `node run.js` in the root directory.
 
 Now you should be able to visit [http://localhost:3000](http://localhost:3000) where you'll find the app running.
-

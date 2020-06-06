@@ -29,7 +29,7 @@ fs.readdirSync(root).forEach(function (subDir) {
 
   // build if needed
 
-  if (subDir === 'host-app') return;
+  if (subDir === 'host-app' || subDir === 'backend') return;
 
   console.log('===================================================================');
   console.log(`Build app inside ${subDir} folder`);
