@@ -37,18 +37,5 @@
       "imageSrc": "/images/sixth.jpg"
     }
   ],
-  "cart": [
-    {
-      "id": "4",
-      "quantity": 5
-    },
-    {
-      "id": "3",
-      "quantity": 1
-    },
-    {
-      "id": "6",
-      "quantity": 2
-    }
-  ]
+  "cart": []
 }

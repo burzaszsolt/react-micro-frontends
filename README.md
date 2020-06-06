@@ -20,7 +20,8 @@ By running the `setup` script from the root folder you'll have all the dependenc
 
 ## With docker
 
-Since you have already setup the services all you need to do is visiting [http://localhost:3000](http://localhost:3000).
+Since you have already setup the services all you need to do is visiting 
+<a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.
 
 ## Without docker
 
@@ -32,4 +33,4 @@ If you ran the `setup` script successfully you only have a few more steps to do:
 
 2. Start the app by running `npm start` in the `host-app` directory
 
-Now you should be able to visit [http://localhost:3000](http://localhost:3000) where you'll find the app running.
+Now you should be able to visit <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> where you'll find the app running.
