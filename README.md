@@ -36,4 +36,4 @@ This one is a small React app that renders a list of products in cart. The user 
 
 ## Backend
 
-The `backend` is a fake REST API created with the `json-server` package. The database consists of products and cart.
+The backend is a fake REST API created with the `json-server` package. The database consists of products and cart.
