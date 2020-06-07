@@ -15,7 +15,7 @@ module.exports = {
     filename: 'mf-products.js',
     publicPath: '/images/',
     library: 'mfProducts',
-    libraryTarget: 'var'
+    libraryTarget: 'window'
   },
   module: {
     rules: [

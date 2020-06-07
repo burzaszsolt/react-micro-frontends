@@ -15,7 +15,7 @@ module.exports = {
     filename: 'mf-cart.js',
     publicPath: '/images/',
     library: 'mfCart',
-    libraryTarget: 'var'
+    libraryTarget: 'window'
   },
   module: {
     rules: [
