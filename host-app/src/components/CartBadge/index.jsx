@@ -28,7 +28,7 @@ const CartBadge = ({ cart }) => {
   }, [isLoaded, mfProducts]);
 
   return (
-    <IconButton onClick={handleClick} aria-label={`show ${cartNum} new notifications`}>
+    <IconButton onClick={handleClick} aria-label={`show ${cartNum} products`}>
       <Badge badgeContent={cartNum} color="secondary">
         <ShoppingCartIcon />
       </Badge>
