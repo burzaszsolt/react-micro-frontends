@@ -10,12 +10,10 @@ import config from '../../utils/config';
 const CartBadge = ({ cart }) => {
   let history = useHistory();
   const [cartNum, setCartNum] = useState(cart.length);
-  const { isLoaded: mfProductsLoaded, mfProducts } = useMicrofrontend('mfProducts', config.mfProductsUrl);
-  const { isLoaded: mfCartLoaded, mfCart } = useMicrofrontend('mfCart', config.mfCartUrl);
+  const { isLoaded, mfProducts } = useMicrofrontend('mfProducts', config.mfProductsUrl);
 
   const handleClick = () => history.push('/cart');
   const handleProductAdded = () => setCartNum(v => v + 1);
-  const handleProductDeleted = () => setCartNum(v => v - 1);
 
   useEffect(() => {
     setCartNum(cart.length);
@@ -27,15 +25,7 @@ const CartBadge = ({ cart }) => {
     subscribe(customEvents.PRODUCTS_MF_PRODUCT_ADDED, handleProductAdded);
   
     return () => unSubscribe(customEvents.PRODUCTS_MF_PRODUCT_ADDED, handleProductAdded);
-  }, [mfProductsLoaded, mfProducts]);
-
-  useEffect(() => {
-    if (!mfCart) return;
-    const { customEvents, subscribe, unSubscribe } = mfCart;
-    subscribe(customEvents.CART_MF_PRODUCT_DELETED, handleProductDeleted);
-  
-    return () => unSubscribe(customEvents.PRODUCTS_MF_PRODUCT_ADDED, handleProductDeleted);
-  }, [mfCartLoaded, mfCart]);
+  }, [isLoaded, mfProducts]);
 
   return (
     <IconButton onClick={handleClick} aria-label={`show ${cartNum} new notifications`}>
